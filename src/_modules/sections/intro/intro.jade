@@ -1,1 +1,12 @@
-section.intro
+include ../../form/form
+section(id="intro")
+    include ../header/header
+    .bg-wrapper
+        div.bg
+        object(type="image/svg+xml" data="images/intro.svg")
+        .dot-descr.first 350
+        .dot-descr.second 350
+    img.table(src="images/table.png")
+    div.container.content
+        h1.title  Массажные столы для массажистов и аксессуары от российского производителя
+        +form

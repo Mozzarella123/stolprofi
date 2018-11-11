@@ -1,1 +1,82 @@
+@import '../../../_styles/vars'
 // header styles
+header
+  position: absolute
+  top:  0
+  left: 0
+  right: 0
+  z-index: 1
+  color: #fff
+  &.fixed
+    position: fixed
+    background: rgba(0,0,0,0.8)
+  .container
+    display: grid
+    grid-template-columns: 2fr 6fr 4fr 2fr
+  .logo
+    display: flex
+    align-items: center
+  .address
+    color: #b1b0b0
+    display: flex
+    align-items: center
+  .social
+    font-size: 19px
+    text-transform: uppercase
+    display: flex
+    justify-content: center
+    flex-direction: column
+    .icons
+      .fab
+        background: rgba(255,255,255,0.15)
+        border-radius: 5px
+        padding: 5px
+        &:not(:last-child)
+          margin-right: 5px
+  .navbar
+    padding-top: 25px
+    padding-bottom: 25px
+  .navbar-nav
+    .nav-link
+      color: #ffffff
+      font-size: 15px
+      &:hover
+        text-decoration: underline
+
++media-breakpoint-down(lg)
+  header
+    .container
+      grid-template-columns: 2fr 7fr 2fr
+    .navbar-nav
+      margin: auto
+    .address
+      display: none
++media-breakpoint-down(md)
+  header
+    .navbar
+      grid-column: 1 / 2
+      grid-row: 1
+    .logo
+      grid-column: 2 / 3
+      justify-content: center
+    .navbar-toggler
+      background: #fff
+    .container
+      grid-template-columns: 2fr 2fr 5fr 3fr
+    .address
+      display: flex
++media-breakpoint-down(sm)
+  header
+    .container
+      grid-template-columns: 1fr 2fr 2fr
+    .address
+      display: none
++media-breakpoint-down(xs)
+  header 
+    .container
+      grid-template-columns: 2fr 2fr
+    .logo
+      display: none
+    .social
+      font-size: 15px
+      align-items: flex-end

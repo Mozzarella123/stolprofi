@@ -1,1 +1,77 @@
 // intro styles
+#intro
+  position: relative
+  color: #fff
+  object
+    width: 100%
+    height: 570px
+  .bg
+    content: ''
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background:
+      image: url("/images/introbg.png")
+      repeat: no-repeat
+      size: auto
+
+  .content
+    position: absolute
+    top: 120px
+    left: 0
+    right: 0
+    z-index: 1
+    .content-wrapper
+      width: 80%
+  .present-form
+    width: 50%
+  .title
+    font-size: 27px
+    text-transform: uppercase
+    font-weight: 900
+  .dot-descr
+    position: absolute
+    font-weight: bold
+    color: $main-color
+    bottom: 0
+    &.first
+      left: 200px
+      bottom: 14%
+    &.second
+      left: 450px
+      bottom: 18%
+  .table
+    position: absolute
+    right: 0
+    width: 55%
+    top: 10%
+@media (min-width: 1314px)
+  #intro
+    object
+      width: 100%
+      height: auto
+    .bg
+      background-size: 100%
+    .dot-descr
+      &.first
+        left: 15%
+      &.second
+        left: 34%
++media-breakpoint-down(lg)
+  #intro
+    .table
+      display: none
++media-breakpoint-down(xs)
+  #intro
+    .content
+    .bg
+      background-position: -175px
+    object
+      visibility: hidden
+    .dot-descr
+      &.first
+        left: 25px
+      &.second
+        left: 280px

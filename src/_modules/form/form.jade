@@ -1,0 +1,11 @@
+mixin form(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+  form.present-form
+    h3.form-title Оставьте свой номер телефона сейчас
+      span.sub и получите подушку в подарок бесплатно
+    .form-group
+      input.form-control(placeholder="Телефон")
+    .form-group
+      button.form-control.btn Получить подарок
+

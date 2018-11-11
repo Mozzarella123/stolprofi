@@ -1,1 +1,8 @@
 section.advantages
+    .container
+        h2.section-title Преимущства
+        .img-block
+            img(src="images/adv-table.png")
+            object(type="image/svg+xml" data="images/advantages.svg")
+            -for (let i =0;i<6;i++)
+                div.description(id=i.toString()) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi laudantium quod repudiandae vel veniam!

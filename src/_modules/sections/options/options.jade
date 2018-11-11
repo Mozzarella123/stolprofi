@@ -1,1 +1,31 @@
 section.options
+    div.container
+        h2 Варианты столов
+        -for (let i =0; i<3;i ++)
+            div.option
+                div.product
+                    div.image
+                        img(src='images/product-1.jpg')
+
+                    div.description
+                        h3.name Стол "Стандарт"
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, repellat!
+                        div.sizes
+                            .one
+                                i
+                                span
+                                a.option
+                    div.price
+                        span.total Цена 3990 руб.
+                        button.btn Купить
+                div.properties
+                    div.complect
+                        span.block--title Комплектация
+                        a.link.link--active Базовая модель
+                        a С вырезом для лица
+                        a С регулируемыми ножками
+                    div.colors
+                        span.block--title Цвет
+
+
+

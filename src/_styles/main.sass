@@ -1,13 +1,29 @@
 // Normalize Styles
-@import node_modules/@fortawesome/fontawesome-free/scss/brands
-@import node_modules/bootstrap/scss/bootstrap-grid
-@import node_modules/bootstrap/scss/variables
 @import "vars"
+@import "libs"
+@import "fonts"
 
-//
-//@import "node_modules/bootstrap/scss/bootstrap-grid"
-//@import "node_modules/bootstrap/scss/variables"
 // Import Modules
+body
+  font-family: 'Exo2'
+  font-size: 17px
+  font-weight: normal
+img
+  max-width: 100%
+
+.btn
+  @extend %accent
+  font-size: 24px
+  border: 0
+  border-radius: 20px
+  padding: 10px 15px
+  line-height: 0
+.form-control
+  border-radius: 30px
+  padding: 25px 12px
+  font-size: 15px
+  &::placeholder
+    color: #444342
 @import '../_modules/**/*'
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements

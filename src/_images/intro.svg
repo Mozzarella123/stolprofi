@@ -1,0 +1,57 @@
+<svg id="Первый_экран" data-name="Первый экран" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+     preserveAspectRatio="xMinYMid slice"
+     height="570px"
+     viewBox="0 0 1314 570">
+    <defs>
+        <style>
+            .cls-1 {
+            fill: #19160f;
+            fill-rule: evenodd;
+            filter: url(#filter);
+            }
+
+            .cls-2, .cls-3 {
+            fill: #ce81ca;
+            }
+
+            .cls-2 {
+            opacity: 0.25;
+            }
+
+            .cls-4 {
+            fill: #fff;
+            }
+        </style>
+
+        <filter id="filter" x="-428" y="-49" width="2140" height="661" filterUnits="userSpaceOnUse">
+            <feOffset result="offset" dy="6" in="SourceAlpha"/>
+            <feGaussianBlur result="blur" stdDeviation="7.141"/>
+            <feFlood result="flood" flood-color="#000001" flood-opacity="0.55"/>
+            <feComposite result="composite" operator="in" in2="blur"/>
+            <feBlend result="blend" in="SourceGraphic"/>
+        </filter>
+        <image id="image" width="19" height="18"
+               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAABOUlEQVQ4jaXTsSvuURzH8dfzZKCUMqiLZDYwGCR/ASUMJCXZENMtxXK7AxZZxCApg2IwCak7mCUzy03dWXcQMoh+dZ46nX7oeZ7P9vmc0/uc7/l+T+Hm95UqtIgJrOGopgpQH1aQMQ7RW6wQVI+dACppuFLYKjqSbKES2BDmk2wXJ+XCWkJ5hSj7GxqhXNgmmiL/jjn8Lxc2jZEk28JFyZRgdWFzk3y1Yz1ZucNyHBRDm4+xhzM05+CyGzRG/g0zeExhB+gPvjsAW6M9sxhI4Bu4TE/MYK9J1oVT/EBb+CqxrvEr7zGyCZ5CLQajvBN/QhkNUZ75SbzkwYphYTyUFyub8J4kW8JtHkjUzWeM5QBjnYdGfKp4zp4wGt4r1UMYzi+VDm3phidJ/hP35cJiYPYH/2Eb+9+B4AMV7TclNULV6wAAAABJRU5ErkJggg=="/>
+    </defs>
+    <g id="Фон">
+        <use id="Слой_5_копия" data-name="Слой 5 копия" x="858" y="2337" xlink:href="#image"/>
+        <use id="Слой_5_копия_2" data-name="Слой 5 копия 2" x="858" y="2743" xlink:href="#image"/>
+        <path
+                fill="url(#img1)"
+                id="Прямоугольник_1"
+                data-name="Прямоугольник 1"
+                class="cls-1"
+                d="M-378-5H1661l-4,431s-59.65,1.63-183,11c-72.87,5.535-163.83,22.96-271,44-69.76,13.694-137.96,70.206-219,73-32.29,1.113-75.838,2.682-118-19a294.039,294.039,0,0,1-79-59c-20.94-22.243-45.109-53.831-68-72-34.931-27.726-71.205-34.812-103-35-63.416-.376-118.362,50.512-182.955,34.141C363.879,385.611,331.35,408.245,295,417c-47.015,11.322-68.339,15.655-103,10C88,410.03,24.658,300.648-34,299c-151.605-4.259-50.527-70.99-96-94-143.221-72.472-248,1-248,1V-5Z"/>
+    </g>
+    <g id="Декор">
+        <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-2" cx="214.969" cy="429" r="22"/>
+        <circle id="Эллипс_2" data-name="Эллипс 2" class="cls-3" cx="214.906" cy="430.125" r="10.219"/>
+        <circle id="Эллипс_3" data-name="Эллипс 3" class="cls-4" cx="214.766" cy="429.797" r="3.141"/>
+    </g>
+    <g id="Декор-2" data-name="Декор">
+        <circle id="Эллипс_1-2" data-name="Эллипс 1" class="cls-2" cx="458.969" cy="404" r="22"/>
+        <circle id="Эллипс_2-2" data-name="Эллипс 2" class="cls-3" cx="458.906" cy="405.125" r="10.219"/>
+        <circle id="Эллипс_3-2" data-name="Эллипс 3" class="cls-4" cx="458.765" cy="404.797" r="3.141"/>
+    </g>
+</svg>
