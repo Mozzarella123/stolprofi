@@ -31,17 +31,26 @@
     font-size: 27px
     text-transform: uppercase
     font-weight: 900
+    width: 85%
   .dot-descr
     position: absolute
-    font-weight: bold
-    color: $main-color
     bottom: 0
+    text-align: center
+    .number
+      font-weight: 900
+      color: $main-color
+      font-size: 25px
+      display: block
+    .caption
+      font-size: 15px
+      display: block
+      color: #000
     &.first
-      left: 200px
-      bottom: 14%
+      left: 130px
+      bottom: 10%
     &.second
-      left: 450px
-      bottom: 18%
+      left: 375px
+      bottom: 15%
   .table
     position: absolute
     right: 0
@@ -63,15 +72,36 @@
   #intro
     .table
       display: none
++media-breakpoint-down(md)
+  #intro
+    .title
+      font-size: 23px
++media-breakpoint-down(sm)
+  #intro
+    .title
+      width: 100%
+      font-size: 20px
+    .present-form
+      width: 95%
 +media-breakpoint-down(xs)
   #intro
     .content
+      top: 85px
+    .title
+      font-size: 16px
     .bg
       background-position: -175px
     object
       visibility: hidden
     .dot-descr
+      text-align: left
+      .number
+        font-size: 20px
+      .sub
+        font-size: 16px
       &.first
         left: 25px
       &.second
-        left: 280px
+        left: 135px
+        text-align: right
+        bottom: 19%
