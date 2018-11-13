@@ -1,17 +1,66 @@
 // advantages styles
-.advantages
-  padding-bottom: 150px
+#advantages
+  padding-bottom: 200px
   .img-block
     position: relative
     img
       position: relative
-      left: 10%
+      left: 0%
+      width: 57%
     object
       position: absolute
-      width: 100%
-      left: 0
-      top: 0
+      left: 2%
+      top: -5%
+      width: 70%
   .description
     position: absolute
     max-width: 300px
-    &#0
+    font-size: 16px
+    &#d-1
+      left: 6%
+      bottom: -30%
+    &#d-2
+      left: 34%
+      bottom: -30%
+    &#d-3
+      right: 10%
+      bottom: -30%
+    &#d-4
+      bottom: 5%
+      right: 0%
+
+    &#d-5
+      top: 35%
+      right: 0%
+    &#d-6
+      top: 0
+      right: 0%
++media-breakpoint-down(lg)
+  #advantages
+    .img-block
+      img
+        width: 52%
+      object
+        width: 64%
+    .description
+      font-size: 14px
+      max-width: 270px
+      &#d-1
+        left: 0
+        bottom: -35%
+      &#d-2
+        left: 30%
+        bottom: -35%
+      &#d-3
+        bottom: -35%
+      &#d-4
+        bottom: 0
+      &#d-5
+        top: 30%
+      &#d-6
+        top: -10%
++media-breakpoint-down(md)
+  #advantages
+    display: none
+
+

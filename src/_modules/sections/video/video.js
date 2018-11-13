@@ -1,8 +1,8 @@
-  'use strict';
+'use strict';
 
-export default class Options {
+export default class Video {
   constructor() {
-    this.name = 'options';
+    this.name = 'video';
     console.log('%s module', this.name.toLowerCase());
   }
 }

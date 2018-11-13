@@ -1,0 +1,57 @@
+<svg id="Преимущества" xmlns="http://www.w3.org/2000/svg" width="100%" height="312" viewBox="0 0 925 312">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #aeaeae;
+        stroke-width: 2px;
+        stroke-dasharray: 8 4;
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #ce81ca;
+      }
+
+      .cls-2 {
+        opacity: 0.25;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Фигура_7" data-name="Фигура 7" class="cls-1" d="M533,296H883v12"/>
+  <path id="Фигура_1" data-name="Фигура 1" class="cls-1" d="M670,90l142-1v69H919"/>
+  <path id="Фигура_3" data-name="Фигура 3" class="cls-1" d="M654,167v91H925"/>
+  <path id="Фигура_2" data-name="Фигура 2" class="cls-1" d="M488,71V0H812V49l108,1"/>
+  <path id="Фигура_4" data-name="Фигура 4" class="cls-1" d="M75,160l1,138H218v13"/>
+  <path id="Фигура_5" data-name="Фигура 5" class="cls-1" d="M534,187V298"/>
+  <path id="Фигура_6" data-name="Фигура 6" class="cls-1" d="M293,75V299l177-1v14"/>
+  <g id="Декор">
+    <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-2" cx="671.969" cy="88" r="22"/>
+    <circle id="Эллипс_2" data-name="Эллипс 2" class="cls-3" cx="671.907" cy="89.125" r="10.219"/>
+    <circle id="Эллипс_3" data-name="Эллипс 3" class="cls-4" cx="671.765" cy="88.797" r="3.14"/>
+  </g>
+  <g id="Декор-2" data-name="Декор">
+    <circle id="Эллипс_1-2" data-name="Эллипс 1" class="cls-2" cx="487.969" cy="70" r="22"/>
+    <circle id="Эллипс_2-2" data-name="Эллипс 2" class="cls-3" cx="487.906" cy="71.125" r="10.219"/>
+    <circle id="Эллипс_3-2" data-name="Эллипс 3" class="cls-4" cx="487.765" cy="70.797" r="3.141"/>
+  </g>
+  <g id="Декор-3" data-name="Декор">
+    <circle id="Эллипс_1-3" data-name="Эллипс 1" class="cls-2" cx="291.969" cy="70" r="22"/>
+    <circle id="Эллипс_2-3" data-name="Эллипс 2" class="cls-3" cx="291.906" cy="71.125" r="10.219"/>
+    <circle id="Эллипс_3-3" data-name="Эллипс 3" class="cls-4" cx="291.765" cy="70.797" r="3.141"/>
+  </g>
+  <g id="Декор-4" data-name="Декор">
+    <circle id="Эллипс_1-4" data-name="Эллипс 1" class="cls-2" cx="532.969" cy="184" r="22"/>
+    <circle id="Эллипс_2-4" data-name="Эллипс 2" class="cls-3" cx="532.907" cy="185.125" r="10.219"/>
+    <circle id="Эллипс_3-4" data-name="Эллипс 3" class="cls-4" cx="532.765" cy="184.797" r="3.14"/>
+  </g>
+  <g id="Декор-5" data-name="Декор">
+    <circle id="Эллипс_1-5" data-name="Эллипс 1" class="cls-2" cx="652.969" cy="168" r="22"/>
+    <circle id="Эллипс_2-5" data-name="Эллипс 2" class="cls-3" cx="652.907" cy="169.125" r="10.219"/>
+    <circle id="Эллипс_3-5" data-name="Эллипс 3" class="cls-4" cx="652.765" cy="168.797" r="3.14"/>
+  </g>
+</svg>

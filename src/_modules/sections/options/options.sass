@@ -1,32 +1,36 @@
 // options styles
 .options
-  .option
+  .product
     display: grid
-    grid-template-columns: 7fr 5fr
+    grid-template-areas: "image description properties" "image sizes properties colors" "price . . "
     grid-gap: 30px
     margin-bottom: 50px
-    .product
-      display: grid
-      grid-template-columns: 3fr 4fr
-      grid-gap: 30px
-      .description
-        .name
-          margin-top: 0
-          margin-bottom: 1rem
-          font-weight: bold
-          font-size: 24px
-      img
-        border-radius: 5px
-    .price
-      display: flex
-      flex-direction: column
-      align-items: center
-      .btn
-        width: 170px
-      .total
-        font-weight: bold
-        font-size: 32px
+    .image
+      grid-area: image
+    .properties
+      grid-area: properties
+    .colors
+      grid-area: colors
+    .description
+      grid-area: description
+      .name
+        margin-top: 0
         margin-bottom: 1rem
+        font-weight: bold
+        font-size: 24px
+    img
+      border-radius: 5px
+  .price
+    grid-area: price
+    display: flex
+    flex-direction: column
+    align-items: center
+    .btn
+      width: 170px
+    .total
+      font-weight: bold
+      font-size: 32px
+      margin-bottom: 1rem
   .block--title
     font-weight: bold
     display: block
