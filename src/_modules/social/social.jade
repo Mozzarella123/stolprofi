@@ -2,5 +2,11 @@ mixin social(spec)
   - spec = spec || {}
   - spec.__class = spec.__class || ''
 
-  div(class=spec.__class)&attributes(attributes)
-    p This is an example paragraph for the social module
+  div.social
+    span.number +7(999)999-99-99
+    div.icons
+      i.fab.fa-telegram-plane
+      i.fab.fa-whatsapp
+      i.fab.fa-viber
+      i.fab.fa-instagram
+      i.fab.fa-vk
