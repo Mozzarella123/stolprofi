@@ -1,8 +1,13 @@
 'use strict';
-
+import $ from 'jquery';
+import 'slick-carousel';
 export default class Clients {
   constructor() {
-    this.name = 'clients';
-    console.log('%s module', this.name.toLowerCase());
+    $('#clients .slider').slick({
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      arrows : false,
+      dots: true
+    });
   }
 }

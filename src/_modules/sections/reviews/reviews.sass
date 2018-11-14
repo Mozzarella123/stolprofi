@@ -1,14 +1,40 @@
 // reviews styles
 #reviews
-  .section-title
-  .slider
+  background: #f0f0f0
+  .wrapper
+    width: 100%
+  .slide-wrapper
+    padding: 100px 0
     width: 80%
     margin: auto
+  .slick-prev, .slick-next
+    position: absolute
+    margin: auto
+    width: 60px
+    height: 60px
+    top: 0
+    bottom: 0
+    z-index: 2
+    border-radius: 50%
+    border: 0
+    outline: 0
+    &:hover
+      background: $main-color
+  .slick-prev
+    left: 0
+  .slick-next
+    right: 0
   .review
     position: relative
+    padding: 35px 50px
+    background: #fff
     text-align: center
+    border-radius: 10px
+    box-shadow: rgba(0,0,0,.15) 0px 0px 70px
     .avatar
       position: absolute
+      left: -90px
+      top: -90px
       img
         border-radius: 50%
     .review-author

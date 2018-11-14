@@ -2,29 +2,31 @@ mixin product(count,spec)
   - count = count || 0
   - spec = spec || {}
   - spec.__class = spec.__class || ''
-  - colors = ["fff","9b2d30","331a00","000099"]
-  div.product
-    div.image
-      img(src='images/product-1.jpg')
-    div.description
+  - colors = ["#fff","#9b2d30","#331a00","#000099"]
+  .product
+    .image-block
+      .image
+        img(src='images/product-1.jpg')
+    .description
       h3.name Стол "Стандарт"
-      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, repellat!
-    div.sizes
-      .one
+      p.descr Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, repellat!
+    .sizes
+      .size
         i
         span Ширина
         a.option 60 см
-    div.price
+    .price
       span.total Цена 3990 руб.
       button.btn Купить
-    div.properties
-      div.complect
+    .properties
+      .complect
         span.block--title Комплектация
-        a.link.link--active Базовая модель
+        a.link.active(href="") Базовая модель
         a С вырезом для лица
         a С регулируемыми ножками
-    div.colors
+    .colors
       span.block--title Цвет
+      a.color.active(style="background-color:"+colors[1])
       -for(let i=0;i<4;i++)
-        a.color(id="c-"+i.toString() style="background-color:"+colors[i])
+        a.color(id="c-"+i.toString() style="background-color:"+colors[i] href="" )
 

@@ -1,8 +1,12 @@
 'use strict';
-
+import $ from 'jquery';
+import 'slick-carousel';
 export default class Reviews {
   constructor() {
-    this.name = 'reviews';
-    console.log('%s module', this.name.toLowerCase());
+    $('#reviews .slider').slick({
+      dots : false,
+      prevArrow: '<button type="button" class="slick-prev"></button>',
+      nextArrow: '<button type="button" class="slick-next"></button>'
+    });
   }
 }
