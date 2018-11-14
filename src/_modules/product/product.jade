@@ -1,7 +1,8 @@
-mixin product(spec)
+mixin product(count,spec)
+  - count = count || 0
   - spec = spec || {}
   - spec.__class = spec.__class || ''
-
+  - colors = ["fff","9b2d30","331a00","000099"]
   div.product
     div.image
       img(src='images/product-1.jpg')
@@ -11,8 +12,8 @@ mixin product(spec)
     div.sizes
       .one
         i
-        span
-        a.option
+        span Ширина
+        a.option 60 см
     div.price
       span.total Цена 3990 руб.
       button.btn Купить
@@ -24,4 +25,6 @@ mixin product(spec)
         a С регулируемыми ножками
     div.colors
       span.block--title Цвет
+      -for(let i=0;i<4;i++)
+        a.color(id="c-"+i.toString() style="background-color:"+colors[i])
 
