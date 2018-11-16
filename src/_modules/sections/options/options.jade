@@ -1,8 +1,25 @@
-include ../../product/product
-section.options
+include ../../product/sizes/sizes
+include ../../product/image_block/image_block
+include ../../product/description/description
+include ../../product/properties/properties
+include ../../product/colors/colors
+include ../../product/price/price
+
+
+section(id="options")
+    object.bg(type="image/svg+xml" data="/images/bg.svg")
+
     div.container
-        h2 Варианты столов
-        -for (let i =0; i<3;i ++)
-            +product
+        h2.section-title Варианты столов
+        -for(let i=0;i<3;i++)
+            .product
+                +image_block
+                div.description-block
+                    +description
+                    +sizes
+                div.properties-block
+                    +properties
+                    +colors
+                +price
 
 

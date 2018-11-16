@@ -1,2 +1,20 @@
 // accessories styles
 @import ../../../_styles/vars
+#accessories
+  .container
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-column-gap: 70px
+    .product
+      & > div
+        margin-bottom: 20px
++media-breakpoint-down(md)
+  #accessories
+    .container
+      grid-template-columns: 1fr 1fr
++media-breakpoint-down(xs)
+  #accessories
+    .container
+      grid-template-columns: 1fr
+  .social
+    font-size: 15px

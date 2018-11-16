@@ -3,66 +3,24 @@
 .product
   .name
     font-size: 23px
-  .image-block
-    .image
-      position: relative
-      display: inline-block
-      img
-        border-radius: 5px
-        z-index: 1
-        position: relative
-      &:after
-        content: ''
-        width: 65%
-        padding-bottom: 65%
-        position: absolute
-        background: $main-color
-        bottom: -10px
-        left: -10px
-        z-index: 0
-        border-radius: 10px
-
   .descr
     font-size: 17px
-  .price
-    display: flex
-    flex-direction: column
-    align-items: center
-    .btn
-      width: 170px
-    .total
-      font-weight: bold
-      font-size: 32px
-      margin-bottom: 1rem
-  .size
-    span
-      font-weight: bold
   .block--title
     font-weight: bold
     display: block
     margin-bottom: 1rem
   .link
-    padding: 10px 20px
     border-radius: 20px
-    &:hover
-      color: #fff
-
-  .color
-    width: 40px
-    height: 40px
-    display: inline-block
-    border-radius: 40%
-    position: relative
+    color: #000
     &.active
-      &:after
-        content: ''
-        position: absolute
-        left: 0
-        right: 0
-        top: 0
-        bottom: 0
-        background:
-          image: url('/images/color-active.png')
-          size: 50%
-          repeat: no-repeat
-          position: 50% 50%
+      color: #fff
+      padding: 10px 20px
+      &:hover
+        text-decoration: none
++media-breakpoint-down(md)
+  .product
+    .image-block
+      display: flex
+      justify-content: center
+
+

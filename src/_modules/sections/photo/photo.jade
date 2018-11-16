@@ -3,5 +3,9 @@ section(id="photo")
         h2.section-title Фотографии наших столов и аксессуаров
         .wrapper
             .slider-nav
-            .slider
-                .image
+        .slider-wrapper
+            .wrapper
+                .slider
+                    -for(let i=0;i<3;i++)
+                        .image
+                            img(src="/images/photo-1.png")

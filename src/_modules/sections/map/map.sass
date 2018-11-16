@@ -1,1 +1,46 @@
 // map styles
+#map
+  .container
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-column-gap: 60px
+    .section-title
+      grid-column: 1 / -1
+    .map
+      height: 380px
+    .address
+      font-weight: bold
+      font-size: 23px
+      line-height: 1em
+      margin-bottom: 30px
+      display: block
+      padding-left: 50px
+      position: relative
+      &:before
+        content: ''
+        position: absolute
+        width: 30px
+        height: 35px
+        left: 0
+        background:
+          image: url("/images/baloon.png")
+          size: 100%
+      .sub
+        display: block
+        font-size: 0.7em
+    .button-block
+      display: flex
+      justify-content: center
+      flex-direction: column
+      .btn
+        border-radius: 5px
+        box-shadow: #ab6ba8 -10px 0px 0px 0px
+        width: 100%
++media-breakpoint-down(md)
+  #map
+    .container
+      grid-template-columns: 1fr
+    .btn
+      white-space: normal
+
+

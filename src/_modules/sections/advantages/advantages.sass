@@ -61,6 +61,38 @@
         top: -10%
 +media-breakpoint-down(md)
   #advantages
-    display: none
+    padding-bottom: 0
+    .img-block
+      img
+        width: 100%
+        margin-bottom: 1rem
+
+      object
+        display: none
+
+    .description
+      position: relative
+      font-size: 16px
+      max-width: none
+      margin-bottom: 10px
+      padding-left: 40px
+      &:before
+        content: ''
+        background:
+          image: url('/images/circle.svg')
+          size: 100%
+        position: absolute
+        top: 0
+        bottom: 0
+        margin: auto
+        left: 0px
+        width: 30px
+        height: 30px
+      @for $i from 1 to 6
+        &#d-#{$i}
+          left: 0
+          right: 0
+          top: 0
+          bottom: 0
 
 

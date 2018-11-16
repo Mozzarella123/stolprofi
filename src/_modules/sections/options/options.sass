@@ -1,8 +1,31 @@
 // options styles
-.options
-  background: #f0f0f0
+
+#options
+  position: relative
   .product
     display: grid
-    grid-template-columns: 1fr 2fr 3fr
-    grid-gap: 30px
+    grid-template-columns: 2fr 3fr 4fr
+    grid-column-gap: 30px
     margin-bottom: 50px
+  .bg
+    position: absolute
+    top: -30%
+    left: 0
+    bottom: 0
+    width: 100%
++media-breakpoint-down(lg)
+  #options
+    .product
+      grid-template-columns: 2fr 3fr
+      grid-row-gap: 30px
+      .price
+        grid-column: 1
+        grid-row: 2
++media-breakpoint-down(md)
+  #options
+    .product
+      grid-template-columns: 1fr
+      .price
+        grid-row: auto
+
+

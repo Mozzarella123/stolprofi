@@ -7,7 +7,11 @@ export default class Clients {
       slidesToShow: 4,
       slidesToScroll: 4,
       arrows : false,
-      dots: true
+      dots: true,
+      appendDots : $('#clients .slider-nav'),
+      customPaging : function (slider, pageIndex) {
+        return '<button></button>';
+      }
     });
   }
 }
