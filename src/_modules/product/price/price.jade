@@ -1,0 +1,7 @@
+mixin price(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  .price
+    span.total Цена 3990 руб.
+    button.btn Купить

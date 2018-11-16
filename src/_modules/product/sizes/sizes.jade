@@ -1,0 +1,18 @@
+mixin sizes(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  .sizes
+    .size.width
+      i
+      span Ширина
+      a.option 60 см
+    .size.length
+      i
+      span Длина
+      a.option.link(href="") 60 см
+      a.option.link(href="") 60 см
+   .size.height
+        i
+        span Высота
+        a.option.link(href="") 60 см

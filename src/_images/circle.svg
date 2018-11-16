@@ -1,0 +1,20 @@
+<svg id="Декор" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #ce81ca;
+      }
+
+      .cls-1 {
+        opacity: 0.25;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-1" cx="22" cy="22" r="22"/>
+  <circle id="Эллипс_2" data-name="Эллипс 2" class="cls-2" cx="21.938" cy="23.125" r="10.219"/>
+  <circle id="Эллипс_3" data-name="Эллипс 3" class="cls-3" cx="21.796" cy="22.797" r="3.141"/>
+</svg>

@@ -1,0 +1,10 @@
+mixin properties(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  .properties
+    .complect
+      span.block--title Комплектация
+      a.link.active(href="") Базовая модель
+      a.link(href="" ) С вырезом для лица
+      a.link(href="") С регулируемыми ножками

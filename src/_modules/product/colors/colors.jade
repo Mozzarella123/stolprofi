@@ -1,0 +1,10 @@
+mixin colors(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+  - colors = ["#fff","#9b2d30","#331a00","#000099"]
+
+    .colors
+        span.block--title Цвет
+        a.color.active(style="background-color:"+colors[1])
+        -for(let i=0;i<4;i++)
+            a.color(id="c-" + i.toString() style="background-color:" + colors[i] href="" )

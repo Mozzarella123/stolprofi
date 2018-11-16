@@ -1,0 +1,7 @@
+mixin image_block(spec)
+  - spec = spec || {}
+  - spec.__class = spec.__class || ''
+
+  .image-block
+    .image
+      img(src='images/product-1.jpg')

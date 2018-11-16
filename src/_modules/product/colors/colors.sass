@@ -1,0 +1,25 @@
+// colors styles
+.product
+  .color
+    width: 40px
+    height: 40px
+    display: inline-block
+    border-radius: 40%
+    position: relative
+    margin-bottom: 25px
+    &:not(:last-child)
+      margin-right: 25px
+
+    &.active
+      &:after
+        content: ''
+        position: absolute
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+        background:
+          image: url('/images/color-active.png')
+          size: 50%
+          repeat: no-repeat
+          position: 50% 50%

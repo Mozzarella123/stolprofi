@@ -1,0 +1,20 @@
+// image_block styles
+.product
+  .image-block
+    .image
+      position: relative
+      display: inline-block
+      img
+        border-radius: 5px
+        z-index: 1
+        position: relative
+      &:after
+        content: ''
+        width: 65%
+        padding-bottom: 65%
+        position: absolute
+        background: $main-color
+        bottom: -10px
+        left: -10px
+        z-index: 0
+        border-radius: 10px

@@ -1,0 +1,30 @@
+// sizes styles
+.product
+  .size
+    padding-left: 40px
+    margin-bottom: 15px
+    position: relative
+    &:before
+      content: ''
+      width: 30px
+      height: 30px
+      position: absolute
+      left: 0
+      background:
+        repeat: no-repeat
+        size: auto
+        position: 50%
+    &.width:before
+      background-image: url("/images/icon-width.png")
+    &.length:before
+      background-image: url("/images/icon-length.png")
+    &.height:before
+      background-image: url("/images/icon-height.png")
+    span
+      font-weight: bold
+      margin-right: 5px
+    .option
+      &:hover
+        text-decoration: none
+      &:not(:last-child)
+        margin-right: 20px
