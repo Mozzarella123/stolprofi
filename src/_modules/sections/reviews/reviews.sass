@@ -13,7 +13,7 @@
     margin: auto
     width: 60px
     height: 60px
-    top: 0#reviews
+    top: 0
     bottom: 0
     z-index: 2
     border-radius: 50%
@@ -37,6 +37,7 @@
     border-radius: 10px
     box-shadow: rgba(0,0,0,.15) 0px 0px 70px
     .avatar
+      width: 160px
       position: absolute
       left: -90px
       top: -90px
@@ -44,5 +45,27 @@
         border-radius: 50%
     .review-author
       .city
+        color: #cac6c6
     .reviews-text
       text-align: left
++media-breakpoint-down(md)
+  #reviews
+    .review
+      .avatar
+        left: -70px
+        top: -100px
++media-breakpoint-down(sm)
+  #reviews
+    .slide-wrapper
+      padding-top: 130px
+      padding-bottom: 50px
+    .review
+      .avatar
+        left: 0
+        right: 0
+        margin: auto
+        top: -130px
++media-breakpoint-down(xs)
+  #reviews
+    .review
+      padding: 35px 30px
